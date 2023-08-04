@@ -1,0 +1,94 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+      .navbar {
+        background-color: #fd5d5d;
+      }
+      .navbar-brand {
+        color: #fff;
+        font-size: 24px;
+      }
+      .nav-link {
+        color: #fff;
+        font-size: 18px;
+      }
+      .card {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth effect */
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow style on hover */
+      }
+      .btn-primary {
+        background-color: #ffb319; /* Orange */
+        border-color: #ffb319; /* Orange */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+      }
+      .btn-primary:hover {
+        background-color: #e25822; /* Dark Orange on hover */
+        border-color: #e25822; /* Dark Orange on hover */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+      }
+      .btn-danger {
+        background-color: #fd5d5d; /* Dark Purple */
+        border-color: #fd5d5d; /* Dark Purple */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+      }
+      .btn-danger:hover {
+        background-color: #df2e38; /* Darker Purple on hover */
+        border-color: #df2e38;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add box shadow on hover */
+      }
+      .footer {
+        background-color: #333; /* Dark Grey */
+        color: #fff;
+        text-align: center;
+        margin: 3rem 0 0 0 ;
+        padding: 20px 0 0 0;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Media queries for responsive footer */
+      @media (max-width: 767px) {
+        /* For small devices (up to 767px) */
+        .footer {
+          font-size: 12px;
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 991px) {
+        /* For medium devices (768px to 991px) */
+        .footer {
+          font-size: 14px;
+        }
+      }
+
+      /* Custom Card Styles */
+      .card-title {
+        font-size: 22px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10px;
+      }
+
+      .card-subtitle {
+        font-size: 18px;
+        color: #555;
+        margin-bottom: 15px;
+      }
+
+      .card-text {
+        font-size: 16px;
+        color: #777;
+      }
+
+      .card-buttons {
+        margin-top: 20px;
+      }
